@@ -27,12 +27,16 @@ i.e. steer as cheaply as possible (small control effort) while landing in high-p
   - [Benchmarks \& Surveys](#benchmarks--surveys)
   - [Related Lists](#related-lists)
   - [Contributing](#contributing)
-  - [TODO](#todo)
 
 ## Papers
 
 | Paper Title | Authors | Paper Link | Code |
 |-------------|---------|------------|------|
+| Path Integral Sampler | Qinsheng Zhang et al. (ICLR 2022) | [Paper](https://arxiv.org/abs/2111.15141) | [Code](https://github.com/qsh-zh/pis) |
+| Denoising Diffusion Samplers | Francisco Vargas et al. (ICLR 2023) | [Paper](https://arxiv.org/abs/2302.13834) | [Code](https://github.com/franciscovargas/denoising_diffusion_samplers) |
+| Controlled Monte Carlo Diffusions | Francisco Vargas et al. (ICLR 2024) | [Paper](https://arxiv.org/abs/2307.01050) | [Code](https://github.com/shreyaspadhy/CMCD) |
+| Stochastic Optimal Control Matching | Carles Domingo-Enrich et al. (NeurIPS 2024) | [Paper](https://arxiv.org/abs/2312.02027) | [Code](https://github.com/facebookresearch/SOC-matching) |
+| Adjoint Matching | Carles Domingo-Enrich et al. (ICLR 2025, Spotlight) | [Paper](https://arxiv.org/abs/2409.08861) | [Code](https://github.com/microsoft/soc-fine-tuning-sd) |
 | Adjoint Sampling | Aaron Havens et al. (ICML 2025) | [Paper](https://arxiv.org/abs/2504.11713) | [Code](https://github.com/facebookresearch/adjoint_sampling) |
 | Fisher Adjoint Matching | Mayank Shrivastava et al. | [Paper](https://mayank010698.github.io/fam.pdf) | [Code](https://github.com/mayank010698/soc_uai) |
 | Trust Region SOC | Denis Blessing et al. (NeurIPS 2025, Spotlight) | [Paper](https://arxiv.org/abs/2508.12511) | [Code](https://github.com/DenisBless/TrustRegionSOC) |
@@ -40,7 +44,7 @@ i.e. steer as cheaply as possible (small control effort) while landing in high-p
 
 ## Benchmarks & Surveys
 
-_None yet — see [TODO](#todo)._
+- [soc-sampler-bench](https://github.com/mayank010698/soc-sampler-bench) — common benchmark for comparing SOC-based sampling methods on shared targets.
 
 ## Related Lists
 
@@ -52,7 +56,3 @@ This list intentionally stays narrow to SOC/adjoint-matching samplers. For broad
 ## Contributing
 
 PRs welcome. To add a paper, add a row to the table with the paper title, authors (first author + et al.), venue (+ award if any), arXiv/PDF link, and code link if public.
-
-## TODO
-
-- [ ] Add a benchmark that provides a common method to compare various sampling methods on common targets.
